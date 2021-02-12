@@ -1,0 +1,141 @@
+/*General Stuff*/
+body{
+  margin: 3em;
+  font-family: monospace;
+  box-sizing: border-box;
+  background-color:#e0e0eb;
+}
+
+/*About me pargraph stuff */
+.about-me{
+  font-size: 18px;
+  color: black;
+  position: relative;
+  bottom: 3em;
+}
+
+/*Navigation bar Stuff */
+.nav-bar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+.nav-bar li {
+  float: left;
+}
+
+.nav-bar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.nav-bar li a:hover {
+  background-color: #111111;
+}
+
+/*Picture stuff */
+
+.profile-image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  position: relative;
+  top: 2em;
+  border: 0.2em solid black;
+  height: 10em;
+  width: 10em;
+  border-radius: 5em;
+}
+
+/*Heading stuff */
+
+h1{
+  color: white;
+  background-color: #333333;
+  font-size: 2.4em;
+  width: 10em;
+  padding: 5px;
+  text-align: center;
+  margin-top: 3em;
+}
+
+h3{
+  color: white;
+  background-color: #428E6E;
+  border-radius: 1.5em;
+  text-align: center;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+/*Contact Information Stuff */
+.contact-list a{
+  color: black
+}
+
+address{
+  color: black;
+  text-align: right;
+  position: relative;
+}
+
+address a:hover{
+  color: blue;
+}
+
+.home-contact-list{
+  bottom: 20em;
+}
+
+.projects-contact-list{
+  bottom: 11em;
+}
+
+address strong{
+  font-style: normal;
+}
+
+.contact-list{
+  list-style-type: none;
+}
+
+/*styles a table with two columns */
+table{
+  width: 100%;
+  text-align: center;
+
+}
+
+ td{
+   padding: 10px;
+ }
+
+
+th{
+  font-size: 30px;
+  color: white;
+  background-color: #333333;
+}
+
+tr{
+  background-color: #b7b7bd;
+  font-size: 17px;
+}
+
+/* Makes the link change color when hovering, but black otherwise*/
+.title:hover{
+  color: blue;
+}
+.title{
+  color: black;
+}
+
+
+}
